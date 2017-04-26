@@ -1,0 +1,41 @@
+import React, {Component} from 'react';
+import './App.css';
+import './bootstrap/css/bootstrap.css';
+import ClassesImage from './image/kelas.png';
+import AndroidLogo from './assets/android.png';
+import WebLogo from './assets/html5.png';
+
+class Classes extends Component {
+  render() {
+    return (
+      <div className="classes">
+        <img className="image" src={ClassesImage}/>
+        <div className="classes-content">
+          <div className="classes-title">Pilihan Kelas</div>
+          <div className="row">
+            <div className="col-md-6 col-sm-6 col-xs-12">
+              <div className="android-logo">
+                <img className="image-logo" src={AndroidLogo}/>
+              </div>
+              <div className="android-content">
+                <div className="text-title">Android Development</div>
+                <div className="text-subtitle">Mempelajari cara membuat aplikasi android dengan menggunakan android studio.</div>
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-6 col-xs-12">
+              <div className="web-logo">
+                <img className="image-logo" src={WebLogo}/>
+              </div>
+              <div className="web-content">
+                <div className="text-title">Web Development</div>
+                <div className="text-subtitle">Mempelajari cara membuat website dengan teknologi laravel.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Classes;

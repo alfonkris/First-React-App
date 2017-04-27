@@ -41,7 +41,7 @@
 }
 
 .text-red {
-  color: red;
+  color: #db0f0f;
 }
 
 .header {
@@ -65,14 +65,14 @@
 
 .header-text {
   color: white;
-  font-size: 64px;
+  font-size: 60px;
 }
 
 .header-subtext {
   color: white;
   margin-top: 0.01em;
   margin-bottom: 0.5em;
-  font-size: 38px;
+  font-size: 36px;
 }
 
 .header-button{
@@ -86,8 +86,8 @@
   border: 0px;
   color: white;
   float: right;
-  background-color: rgba(232, 20, 20, .9);
-  font-size: 20px;
+  background-color: #c63c2e;
+  font-size: 21px;
 }
 
 .button-info {
@@ -98,7 +98,7 @@
   border-radius: 5px;
   color: white;
   background-color: rgba(216, 216, 216, .5);
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .description {
@@ -115,9 +115,9 @@
 }
 
 .desc-text{
-  padding-top: 12em;
+  padding-top: 11em;
   text-align: left;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .text-content{
@@ -125,43 +125,43 @@
 }
 
 .subtext-content{
-  font-size: 16px;
-  margin-top: 2em;
+  font-size: 21px;
+  color: #686565;
+  margin-top: 1em;
 }
 
 .classes{
   width: 100%;
-  height: 575px;
+  height: 550px;
   text-align: center;
-}
-
-.classes-content{
-  z-index: 10;
-  position: absolute;
-  top: 200%;
-  width: 100%;
-  text-align: center;
+  background-image: url("./image/kelas.png");
 }
 
 .classes-title{
   font-size: 36px;
   color: white;
+  padding-top: 1.5em;
+}
+
+.classes-content{
+  width: 100%;
+  text-align: center;
+  padding: 3em;
+  padding-top: 8em;
 }
 
 .android-content{
   width: 475px;
-  background: red;
+  background: #c63c2e;
   height: 260px;
-  margin-top: 7em;
-  margin-left: 10em;
+  float: right;
 }
 
 .web-content{
   width: 475px;
-  background: orange;
+  background: #dd8a2f;
   height: 260px;
-  margin-top: 7em;
-  margin-left: 3em;
+  float: left;
 }
 
 .text-title{
@@ -185,8 +185,8 @@
   position: absolute;
   height: 150px;
   width: 150px;
-  margin-top: 2em;
-  margin-left: 21.5em;
+  top: 10%;
+  left: 44%;
   border-radius: 50%;
   background: white;
 }
@@ -196,8 +196,8 @@
   position: absolute;
   height: 150px;
   width: 150px;
-  margin-top: 2em;
-  margin-left: 14.5em;
+  top: 10%;
+  left: 33%;
   border-radius: 50%;
   background: white;
 }
@@ -208,6 +208,107 @@
   margin-top: 2.2em;
 }
 
+.trainer{
+  height: 500px;
+  width: 100%;
+  background: #353535;
+  text-align: center;
+  padding: 4em;
+}
+
+.trainer-title{
+  width: 100%;
+  font-size: 36px;
+  color: white;
+}
+
+.trainer-image{
+  border-radius: 50%;
+  background: white;
+  width: 200px;
+  height: 200px;
+  padding: 1.5em;
+  margin-top: 2.5em;
+}
+
+.trainer-text{
+  font-size: 24px;
+  color: white;
+  padding-top: 1em;
+}
+
+.trainer-subtext{
+  font-size: 18px;
+  color: #9b9b9b;
+  padding-top: 0.5em;
+}
+
+.level{
+  height: 700px;
+  width: 100%;
+  text-align: center;
+  padding: 4em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.level-title{
+  width: 100%;
+  font-size: 36px;
+  color: black;
+}
+
+.level-content{
+  width: 100%;
+  height: 500px;
+  border-radius: 2%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e1e1e1;
+  margin-top: 3em;
+}
+
+.level-image{
+  width: 100%;
+  height: 225px;
+  border-radius: 2%;
+}
+
+.level-text{
+  text-align: left;
+  padding: 3em;
+}
+
+.level-text-head{
+  font-size: 24px;
+  color: black;
+}
+
+.level-text-desc{
+  font-size: 18px;
+  color: #686565;
+  padding-top: 1em;
+}
+
+.level-type{
+  margin-top: 3.5em;
+}
+
+.level-android{
+  font-size: 18px;
+  color: #c63c2e;
+}
+
+.level-web{
+  font-size: 18px;
+  color: #dd8a2f;
+}
+
+.level-price{
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
 
 @keyframes App-logo-spin {
   from {

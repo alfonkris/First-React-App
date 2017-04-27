@@ -14,7 +14,9 @@ class Description extends Component {
           <div className="col-md-6">
             <div className="desc-text">
               <div className="text-content">Apa itu CCC?</div>
-              <div className="subtext-content">Code Course Camp adalah kursus yang dibuat oleh Code Margonda. Kursus ini diperuntukkan untuk kamu yang ingin membuat aplikasi sendiri.</div>
+              <div className="subtext-content">Code Course Camp adalah kursus yang dibuat oleh Code Margonda.
+                Kursus ini diperuntukkan untuk kamu yang ingin membuat aplikasi sendiri sesuai dengan kebutuhan kamu.
+              CCC terbagi menjadi tiga kelas yaitu basic, intermediate, dan advanced yang masing-masing terdiri dari 12 pertemuan.</div>
             </div>
           </div>
         </div>

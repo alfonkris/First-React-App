@@ -5,6 +5,8 @@ import Navbar from './Navbar';
 import Header from './Header';
 import Description from './Description';
 import Classes from './Classes';
+import Trainer from './Trainer';
+import Level from './Level';
 
 class App extends Component {
   render() {
@@ -14,6 +16,8 @@ class App extends Component {
         <Header />
         <Description />
         <Classes />
+        <Trainer />
+        <Level />
       </div>
     );
   }

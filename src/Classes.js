@@ -9,11 +9,10 @@ class Classes extends Component {
   render() {
     return (
       <div className="classes">
-        <img className="image" src={ClassesImage}/>
-        <div className="classes-content">
-          <div className="classes-title">Pilihan Kelas</div>
-          <div className="row">
-            <div className="col-md-6 col-sm-6 col-xs-12">
+        <div className="classes-title">Pilihan Kelas</div>
+        <div className="row">
+          <div className="col-md-6 col-sm-6 col-xs-12">
+            <div className="classes-content">
               <div className="android-logo">
                 <img className="image-logo" src={AndroidLogo}/>
               </div>
@@ -22,7 +21,9 @@ class Classes extends Component {
                 <div className="text-subtitle">Mempelajari cara membuat aplikasi android dengan menggunakan android studio.</div>
               </div>
             </div>
-            <div className="col-md-6 col-sm-6 col-xs-12">
+          </div>
+          <div className="col-md-6 col-sm-6 col-xs-12">
+            <div className="classes-content">
               <div className="web-logo">
                 <img className="image-logo" src={WebLogo}/>
               </div>

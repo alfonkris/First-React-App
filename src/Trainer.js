@@ -6,36 +6,48 @@ import trainer2 from './image/consultant2.jpg';
 import trainer3 from './image/consultant3.jpg';
 import trainer4 from './image/consultant4.jpg';
 
-class Trainer extends Component {
-  render() {
-    return (
-      <div className="trainer">
-        <div className="trainer-title">Pengajar</div>
-        <div className="row">
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <img className="trainer-image" src={trainer1}/>
-            <div className="trainer-text">Gungde Aditya</div>
-            <div className="trainer-subtext">Android Developer</div>
-          </div>
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <img className="trainer-image" src={trainer2}/>
-            <div className="trainer-text">David Cornelius</div>
-            <div className="trainer-subtext">Android Developer</div>
-          </div>
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <img className="trainer-image" src={trainer3}/>
-            <div className="trainer-text">Fuad Aji Pratomo</div>
-            <div className="trainer-subtext">Web Developer</div>
-          </div>
-          <div className="col-md-3 col-sm-6 col-xs-12">
-            <img className="trainer-image" src={trainer4}/>
-            <div className="trainer-text">Jefri Yushendri</div>
-            <div className="trainer-subtext">Web Developer</div>
-          </div>
-        </div>
-      </div>
-    );
-  }
+const trainer = [
+    {
+      img_url: trainer1,
+      name: "Gungde Aditya",
+      job: "Android Developer"
+    }, {
+      img_url: trainer2,
+      name: "David Cornelius",
+      job: "Android Developer"
+    }, {
+      img_url: trainer3,
+      name: "Fuad Aji Pratomo",
+      job: "Web Developer"
+    }, {
+      img_url: trainer4,
+      name: "Jefri Yushendri",
+      job: "Web Developer"
+    }
+  ];
+
+  class Trainer extends Component {
+    render() {
+      return (
+        <div className="trainer">
+          <div className="trainer-title">Pengajar</div>
+          <div className="row">
+
+            {trainer.map(function(tr, index) {
+              return (
+                <div key={index} className="col-md-3 col-sm-6 col-xs-12">
+                  <img className="trainer-image" src={tr.img_url}/>
+                  <div className="trainer-text">{tr.name}</div>
+                  <div className="trainer-subtext">{tr.job}</div>
+                </div>
+              );
+            })
 }
 
-export default Trainer;
+          </div>
+        </div>
+      );
+    }
+  }
+
+  export default Trainer;

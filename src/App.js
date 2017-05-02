@@ -7,6 +7,10 @@ import Description from './Description';
 import Classes from './Classes';
 import Trainer from './Trainer';
 import Level from './Level';
+import Schedule from './Schedule';
+import Register from './Register';
+import Syllabus from './Syllabus';
+import Testimony from './Testimony';
 
 class App extends Component {
   render() {
@@ -18,6 +22,10 @@ class App extends Component {
         <Classes />
         <Trainer />
         <Level />
+        <Schedule />
+        <Register />
+        <Syllabus />
+        <Testimony />
       </div>
     );
   }

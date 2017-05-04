@@ -11,6 +11,7 @@ import Schedule from './Schedule';
 import Register from './Register';
 import Syllabus from './Syllabus';
 import Testimony from './Testimony';
+import Footer from './Footer';
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
         <Register />
         <Syllabus />
         <Testimony />
+        <Footer />
       </div>
     );
   }

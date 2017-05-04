@@ -3,12 +3,43 @@ import './App.css';
 import './bootstrap/css/bootstrap.css';
 
 const schedule = [
-  {level:"Beginner", test:"20 Jan 2017", start:"20 Jan 2017", end:"20 Jan 2017", status:"Tutup"},
-  {level:"Beginner", test:"20 Jan 2017", start:"20 Jan 2017", end:"20 Jan 2017", status:"Tutup"},
-  {level:"Beginner", test:"20 Jan 2017", start:"20 Jan 2017", end:"20 Jan 2017", status:"Tutup"},
-  {level:"Beginner", test:"20 Jan 2017", start:"20 Jan 2017", end:"20 Jan 2017", status:"Tutup"},
-  {level:"Beginner", test:"20 Jan 2017", start:"20 Jan 2017", end:"20 Jan 2017", status:"Tutup"},
-  {level:"Beginner", test:"20 Jan 2017", start:"20 Jan 2017", end:"20 Jan 2017", status:"Tutup"},
+  {
+    level: "Beginner",
+    test: "20 Jan 2017",
+    start: "20 Jan 2017",
+    end: "20 Jan 2017",
+    status: "Tutup"
+  }, {
+    level: "Beginner",
+    test: "20 Jan 2017",
+    start: "20 Jan 2017",
+    end: "20 Jan 2017",
+    status: "Tutup"
+  }, {
+    level: "Beginner",
+    test: "20 Jan 2017",
+    start: "20 Jan 2017",
+    end: "20 Jan 2017",
+    status: "Tutup"
+  }, {
+    level: "Beginner",
+    test: "20 Jan 2017",
+    start: "20 Jan 2017",
+    end: "20 Jan 2017",
+    status: "Tutup"
+  }, {
+    level: "Beginner",
+    test: "20 Jan 2017",
+    start: "20 Jan 2017",
+    end: "20 Jan 2017",
+    status: "Tutup"
+  }, {
+    level: "Beginner",
+    test: "20 Jan 2017",
+    start: "20 Jan 2017",
+    end: "20 Jan 2017",
+    status: "Tutup"
+  }
 ];
 
 class Schedule extends Component {

@@ -9,10 +9,10 @@ class Syllabus extends Component {
         <div className="syllabus-title">Download silabus lengkap dari program CCC</div>
         <form>
           <div className="row syllabus-content">
-            <div className="col-md-8">
+            <div className="col-md-8 col-sm-8 col-xs-8">
               <input className="syllabus-input" type="text" name="email" value="Email"/>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 col-sm-4 col-xs-4">
               <input className="syllabus-button" type="submit" value="Download"/>
             </div>
           </div>

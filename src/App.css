@@ -38,12 +38,12 @@
 
 .text-black {
   color: #000000;
-  font-family: serif monserrat;
+  font-family: 'Montserat-Bold';
 }
 
 .text-red {
   color: #db0f0f;
-  font-family: serif monserrat;
+  font-family: 'Montserrat-Semi-Bold';
 }
 
 .header {
@@ -69,7 +69,7 @@
 .header-text {
   color: white;
   font-size: 60px;
-  font-family: 'Monserrat-Bold';
+  font-family: 'Montserrat-Bold';
 }
 
 .header-subtext {
@@ -582,6 +582,373 @@
   padding-top: 0.75em;
   font-family: raleway;
 }
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 732px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .nav {
+      padding: 1em;
+    }
+
+    .navbar {
+      height: 75px;
+      text-align: center;
+      padding-right: 1em;
+      padding-left: 1em;;
+      background-color: #ffffff;
+    }
+
+    .navbar-toggle{
+      margin-top: 1.5em !important;
+      margin-right: 0 !important;
+    }
+
+    .icon-bar{
+      background-color: black !important;
+    }
+
+    .navbar-logo {
+      float: left;
+      margin-top: 1em;
+      height: 50px;
+    }
+
+    .text-black {
+      color: #000000;
+      font-family: serif monserrat;
+    }
+
+    .text-red {
+      color: #db0f0f;
+      font-family: serif monserrat;
+    }
+
+    .header {
+      height: auto;
+    }
+
+    .image {
+      height: 310px;
+    }
+
+    .header-caption {
+      top: 20%;
+    }
+
+    .header-text {
+      font-size: 24px;
+    }
+
+    .header-subtext {
+      font-size: 16px;
+    }
+
+    .button-daftar {
+      width: 175px;
+      height: 30px;
+      float: none;
+      font-size: 16px;
+    }
+
+    .button-info {
+      width: 175px;
+      height: 30px;
+      float: none;
+      font-size: 16px;
+    }
+
+    .description {
+      width: 100%;
+      height: 100vh;
+      padding: 2em;
+      text-align: center;
+    }
+
+    .desc-image{
+      padding: 0;
+      padding-left: 0;
+      max-width: 200px;
+      max-height: 200px;
+    }
+
+    .desc-text{
+      padding: 1.5em;
+      text-align: center;
+    }
+
+    .text-content{
+      font-size: 24px;
+    }
+
+    .subtext-content{
+      font-size: 16px;
+    }
+
+    .classes{
+      width: 100%;
+      height: auto;
+      text-align: center;
+      padding-top: 3em;
+    }
+
+    .classes-title{
+      font-size: 24px;
+    }
+
+    .classes-content{
+      padding: 3.5em;
+      padding-top: 4em;
+    }
+
+    .android-content{
+      width: 300px;
+      height: 175px;
+      float: none;
+      margin-top: 1.5em;
+    }
+
+    .web-content{
+      width: 300px;
+      height: 175px;
+      float: none;
+    }
+
+    .text-title{
+      font-size: 18px;
+      padding-top: 3.5em;
+    }
+
+    .text-subtitle{
+      font-size: 12px;
+      padding-top: 1em
+    }
+
+    .android-logo{
+      height: 100px;
+      width: 100px;
+      top: 10%;
+      left: 38%;
+    }
+
+    .web-logo{
+      height: 100px;
+      width: 100px;
+      top: 4%;
+      left: 38%;
+    }
+
+    .image-logo{
+      height: 60px;
+      width: 60px;
+      margin-top: 1.5em;
+    }
+
+    .trainer{
+      height: auto;
+      padding: 3em;
+    }
+
+    .trainer-title{
+      font-size: 24px;
+    }
+
+    .trainer-image{
+      width: 100px;
+      height: 100px;
+    }
+
+    .trainer-text{
+      font-size: 18px;
+    }
+
+    .trainer-subtext{
+      font-size: 14px;
+    }
+
+    .level{
+      height: auto;
+      padding: 3em;
+    }
+
+    .level-title{
+      font-size: 24px;
+    }
+
+    .level-content{
+      height: auto;
+      margin-top: 2em;
+    }
+
+    .level-image{
+      height: 200px;
+    }
+
+    .level-text{
+      padding: 2em;
+      padding-left: 3em;
+      padding-right: 3em;
+    }
+
+    .level-text-head{
+      font-size: 21px;
+    }
+
+    .level-text-desc{
+      font-size: 14px;
+    }
+
+    .level-type{
+      margin-top: 2em;
+    }
+
+    .level-android{
+      font-size: 14px;
+    }
+
+    .level-web{
+      font-size: 14px;
+    }
+
+    .level-price{
+      font-size: 14px;
+    }
+
+    .schedule{
+      height: auto;
+      padding: 3em;
+    }
+
+    .schedule-title{
+      font-size: 24px;
+    }
+
+    .register{
+      height: auto;
+      padding: 3em;
+      padding-top: 5em;
+      padding-bottom: 5em;
+    }
+
+    .register-title{
+      font-size: 24px;
+    }
+
+    .register-subtitle{
+      padding-top: 1.5em;
+      max-width: 100%;
+      font-size: 14px;
+    }
+
+    .register-button{
+      width: 175px;
+      height: 30px;
+      font-size: 14px;
+    }
+
+    .syllabus{
+      padding: 2em;
+    }
+
+    .syllabus-title{
+      font-size: 18px;
+    }
+
+    .syllabus-subtitle{
+      font-size: 10px;
+      padding-top: 2em;
+    }
+
+    .syllabus-content{
+      padding-top: 2em;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .syllabus-input{
+      height: 30px;
+    }
+
+    .syllabus-button{
+      height: 30px;
+    }
+
+    .testimony{
+      height: auto;
+      padding: 3em;
+    }
+
+    .testimony-title{
+      font-size: 24px;
+    }
+
+    .testimony-content{
+      padding: 0;
+      padding-top: 2em;
+      text-align: center;
+    }
+
+    .testimony-image{
+      width: 100px;
+      height: 100px;
+      top: 10%;
+      left: 35%;
+      margin-left: 0;
+    }
+
+    .testimony-name{
+      font-size: 21px;
+      padding: 0;
+      padding-top: 2.5em;
+      float: none;
+      padding-right: 0;
+    }
+
+    .testimony-text{
+      font-size: 14px;
+      float: none;
+      padding-top: 1em;
+      padding-left: 3em;
+      padding-right: 3em;
+    }
+
+    .footer{
+      height: auto;
+      padding: 3em;
+    }
+
+    #footer-ccc-logo{
+      width: 125px;
+    }
+
+    .footer-text{
+      font-size: 12px;
+      padding-top: 1em;
+    }
+
+    .footer-input{
+      font-size: 12px;
+    }
+
+    .footer-button{
+      padding: 0.7em;
+      font-size: 12px;
+    }
+
+    .footer-line{
+      margin-top: 2em;
+    }
+
+    #footer-section{
+      font-size: 18px;
+    }
+
+    #footer-subsection{
+      font-size: 14px;
+    }
+
+
+  }
 
 @keyframes App-logo-spin {
   from {

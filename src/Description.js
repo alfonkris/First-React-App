@@ -8,10 +8,10 @@ class Description extends Component {
     return (
       <div className="description">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 col-sm-6 col-xs-12">
             <img className="desc-image" src={logo}/>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 col-sm-6 col-xs-12">
             <div className="desc-text">
               <div className="text-content">Apa itu CCC?</div>
               <div className="subtext-content">Code Course Camp adalah kursus yang dibuat oleh Code Margonda.

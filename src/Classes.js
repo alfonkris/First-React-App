@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import './bootstrap/css/bootstrap.css';
 import ClassesImage from './image/kelas.png';
 import AndroidLogo from './assets/android.png';
 import WebLogo from './assets/html5.png';
@@ -8,7 +7,7 @@ import WebLogo from './assets/html5.png';
 class Classes extends Component {
   render() {
     return (
-      <div className="classes paralax">
+      <div className="classes paralax" id="program">
         <div className="classes-title">Pilihan Kelas</div>
         <div className="row">
           <div className="col-md-6 col-sm-6 col-xs-12">

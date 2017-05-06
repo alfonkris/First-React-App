@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import './bootstrap/css/bootstrap.css';
 import testimony1 from './image/consultant1.jpg';
 import testimony2 from './image/consultant2.jpg';
 import testimony3 from './image/consultant3.jpg';
@@ -27,7 +26,7 @@ class Testimony extends Component {
 
           {testimony.map(function(ts, index) {
             return (
-              <div className="col-md-6 col-sm-6 col-xs-12">
+              <div key={index} className="col-md-6 col-sm-6 col-xs-12">
                 <div className="testimony-content">
                   <img className="testimony-image" src={ts.img_url}/>
                   <div className="testimony-border">

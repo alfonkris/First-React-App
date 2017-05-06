@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import './bootstrap/css/bootstrap.css';
 
 class Syllabus extends Component {
   render() {
@@ -10,10 +9,10 @@ class Syllabus extends Component {
         <form>
           <div className="row syllabus-content">
             <div className="col-md-8 col-sm-8 col-xs-8">
-              <input className="syllabus-input" type="text" name="email" value="Email"/>
+              <input className="syllabus-input" type="text" name="email" defaultValue="Email"/>
             </div>
             <div className="col-md-4 col-sm-4 col-xs-4">
-              <input className="syllabus-button" type="submit" value="Download"/>
+              <input className="syllabus-button" type="submit" defaultValue="Download"/>
             </div>
           </div>
         </form>

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import './bootstrap/css/bootstrap.css';
 import logo from './assets/codecoursecamp-logo.png';
 
 class Description extends Component {

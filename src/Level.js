@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import './bootstrap/css/bootstrap.css';
 import BeginnerImage from './image/beginner.png';
 import IntermediateImage from './image/intermediate.jpg';
 import AdvancedImage from './image/advanced.jpg';

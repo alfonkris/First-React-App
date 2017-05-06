@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import './bootstrap/css/bootstrap.css';
 import trainer1 from './image/consultant1.jpg';
 import trainer2 from './image/consultant2.jpg';
 import trainer3 from './image/consultant3.jpg';

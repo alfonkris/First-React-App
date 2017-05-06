@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import './bootstrap/css/bootstrap.css';
 import logoCCC from './assets/ccc-logo-white.png';
 
 class Footer extends Component {
@@ -16,7 +15,7 @@ class Footer extends Component {
             <div className="footer-text">Dapatkan berita terbaru & event yang akan datang</div>
             <div className="row">
               <div className="col-md-8 col-sm-8 col-xs-8">
-                <input className="footer-input" type="text" name="email" value="Email"/>
+                <input className="footer-input" type="text" name="email" defaultValue="Email"/>
               </div>
 
               <div className="col-md-4 col-sm-4 col-xs-4">

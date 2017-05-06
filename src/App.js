@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import './bootstrap/css/bootstrap.css';
 import Navbar from './Navbar';
 import Header from './Header';
 import Description from './Description';
@@ -21,8 +20,8 @@ class App extends Component {
         <Header />
         <Description />
         <Classes />
-        <Trainer />
         <Level />
+        <Trainer />
         <Schedule />
         <Register />
         <Syllabus />

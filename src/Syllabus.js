@@ -9,10 +9,10 @@ class Syllabus extends Component {
         <form>
           <div className="row syllabus-content">
             <div className="col-md-8 col-sm-8 col-xs-8">
-              <input className="syllabus-input" type="text" name="email" defaultValue="Email"/>
+              <input className="syllabus-input" type="text" name="email" placeholder="Email"/>
             </div>
             <div className="col-md-4 col-sm-4 col-xs-4">
-              <input className="syllabus-button" type="submit" defaultValue="Download"/>
+              <input className="syllabus-button" type="submit" value="Download"/>
             </div>
           </div>
         </form>

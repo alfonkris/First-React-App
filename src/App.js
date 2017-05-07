@@ -1,33 +1,24 @@
 import React, {Component} from 'react';
 import './App.css';
 import Navbar from './Navbar';
-import Header from './Header';
-import Description from './Description';
-import Classes from './Classes';
-import Trainer from './Trainer';
-import Level from './Level';
-import Schedule from './Schedule';
-import Register from './Register';
-import Syllabus from './Syllabus';
-import Testimony from './Testimony';
-import Footer from './Footer';
+import Home from './Home';
+import Auth from './Auth';
+import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Navbar />
-        <Header />
-        <Description />
-        <Classes />
-        <Level />
-        <Trainer />
-        <Schedule />
-        <Register />
-        <Syllabus />
-        <Testimony />
-        <Footer />
-      </div>
+      <Router>
+        <div className="App">
+          <Navbar/>
+
+          <Switch>
+            <Route exact path='/' component={Home}/>
+            <Route exact path='/auth' component={Auth}/>
+          </Switch>
+
+        </div>
+      </Router>
     );
   }
 }

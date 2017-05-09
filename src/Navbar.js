@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import logo from './assets/ccc-logo.png';
 import './App.css';
-import {Link, NavLink} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 const Navbar = () => {
   return (

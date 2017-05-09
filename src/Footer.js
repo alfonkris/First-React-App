@@ -11,7 +11,6 @@ class Footer extends Component {
             <img id="footer-ccc-logo" src={logoCCC}/>
           </div>
 
-
         </div>
 
         <div className="footer-line"></div>

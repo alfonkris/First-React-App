@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
-import ClassesImage from './image/kelas.png';
-import AndroidLogo from './assets/android.png';
-import WebLogo from './assets/html5.png';
+import './style.css';
 
 class Classes extends Component {
   render() {
@@ -13,7 +10,7 @@ class Classes extends Component {
           <div className="col-md-6 col-sm-6 col-xs-12">
             <div className="classes-content">
               <div className="android-logo">
-                <img className="image-logo" src={AndroidLogo}/>
+                <img className="image-logo" src="assets/android.png"/>
               </div>
               <div className="android-content">
                 <div className="text-title">Android Development</div>
@@ -24,7 +21,7 @@ class Classes extends Component {
           <div className="col-md-6 col-sm-6 col-xs-12">
             <div className="classes-content">
               <div className="web-logo">
-                <img className="image-logo" src={WebLogo}/>
+                <img className="image-logo" src="assets/html5.png"/>
               </div>
               <div className="web-content">
                 <div className="text-title">Web Development</div>

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
-import logoCCC from './assets/ccc-logo-white.png';
+import './style.css';
 
 class Footer extends Component {
   render() {
@@ -8,7 +7,7 @@ class Footer extends Component {
       <div className="footer">
         <div className="row" id="footer-content">
           <div className="col-md-7 col-sm-6 col-xs-12">
-            <img id="footer-ccc-logo" src={logoCCC}/>
+            <img id="footer-ccc-logo" src="assets/ccc-logo-white.png"/>
           </div>
 
         </div>

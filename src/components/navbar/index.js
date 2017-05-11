@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import logo from './assets/ccc-logo.png';
-import './App.css';
+import logo from './ccc-logo.png';
+import './style.css';
 import {NavLink} from 'react-router-dom';
 
 const Navbar = () => {

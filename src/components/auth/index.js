@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './App.css';
-import Signin from './Signin';
-import Signup from './Signup';
+import './style.css';
+import Signin from '../signin/index';
+import Signup from '../signup/index';
 import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 
 class Auth extends Component {

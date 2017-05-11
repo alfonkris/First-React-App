@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
-import logo from './assets/codecoursecamp-logo.png';
+import './style.css';
 
 class Description extends Component {
   render() {
@@ -8,7 +7,7 @@ class Description extends Component {
       <div className="description">
         <div className="row">
           <div className="col-md-6 col-sm-6 col-xs-12">
-            <img className="desc-image" src={logo}/>
+            <img className="desc-image" src="assets/codecoursecamp-logo.png"/>
           </div>
           <div className="col-md-6 col-sm-6 col-xs-12">
             <div className="desc-text">

@@ -1,21 +1,25 @@
 import React, {Component} from 'react';
 import './style.css';
+import Trainer1 from '../../assets/consultant1.jpg';
+import Trainer2 from '../../assets/consultant2.jpg';
+import Trainer3 from '../../assets/consultant3.jpg';
+import Trainer4 from '../../assets/consultant4.jpg';
 
 const trainer = [
   {
-    img_url: "assets/consultant1.jpg",
+    img_url: Trainer1,
     name: "Gungde Aditya",
     job: "Android Developer"
   }, {
-    img_url: "assets/consultant2.jpg",
+    img_url: Trainer2,
     name: "David Cornelius",
     job: "Android Developer"
   }, {
-    img_url: "assets/consultant3.jpg",
+    img_url: Trainer3,
     name: "Fuad Aji Pratomo",
     job: "Web Developer"
   }, {
-    img_url: "assets/consultant4.jpg",
+    img_url: Trainer4,
     name: "Jefri Yushendri",
     job: "Web Developer"
   }

@@ -1,21 +1,24 @@
 import React, {Component} from 'react';
 import './style.css';
+import ImageBeginner from '../../assets/beginner.png';
+import ImageIntermediate from '../../assets/intermediate.jpg';
+import ImageAdvanced from '../../assets/advanced.jpg';
 
 const level = [
   {
-    img_url: "assets/beginner.png",
+    img_url: ImageBeginner,
     title: "Beginner",
     subtitle: "Cocok untuk kamu yang baru mulai belajar.",
     price_android: "Rp 1.000.000,-",
     price_web: "Rp 1.250.000,-"
   }, {
-    img_url: "assets/intermediate.jpg",
+    img_url: ImageIntermediate,
     title: "Intermediate",
     subtitle: "Untuk kamu yang tertarik memperdalam skill.",
     price_android: "Rp 1.250.000,-",
     price_web: "Rp 1.500.000,-"
   }, {
-    img_url: "assets/advanced.jpg",
+    img_url: ImageAdvanced,
     title: "Advanced",
     subtitle: "Kamu akan terlibat dalam project sungguhan dalam kelas ini.",
     price_android: "Rp 1.750.000,-",

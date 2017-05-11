@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import './style.css';
+import ImageHeader from '../../assets/header.png';
 
 class Header extends Component {
   render() {
     return (
       <div className="header">
-        <img className="image" src="assets/header.png"/>
+        <img className="image" src={ImageHeader}/>
         <div className="header-caption">
           <div className="header-text">CODE COURSE CAMP</div>
           <div className="header-subtext">Semua orang bisa belajar coding!</div>

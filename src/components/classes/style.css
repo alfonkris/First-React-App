@@ -3,7 +3,7 @@
   height: 100vh;
   text-align: center;
   padding-top: 6em;
-  background-image: url("/assets/kelas.png");
+  background-image: url("../../assets/kelas.png");
 }
 
 .paralax{

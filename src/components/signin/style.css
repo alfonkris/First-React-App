@@ -10,7 +10,7 @@
   height: 575px;
   padding: 7em;
   text-align: left;
-  background-image: url("/assets/kelas.png");
+  background-image: url("../../assets/kelas.png");
 }
 
 .login-banner-title{

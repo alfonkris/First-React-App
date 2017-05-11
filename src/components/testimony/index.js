@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
 import './style.css';
+import Testimony1 from '../../assets/consultant1.jpg';
+import Testimony2 from '../../assets/consultant2.jpg';
 
 const testimony = [
   {
-    img_url: "assets/consultant1.jpg",
+    img_url: Testimony1,
     name: "Gungde Aditya",
     text: "Saya merasa sangat terbantu dengan program CCC ini. Saya menjadi mengerti bagaimana membuat aplikasi android yang baik."
   }, {
-    img_url: "assets/consultant2.jpg",
+    img_url: Testimony2,
     name: "Alfonsius Krisnanda",
     text: "Saya merasa sangat terbantu dengan program CCC ini. Saya menjadi mengerti bagaimana membuat aplikasi android yang baik."
   }

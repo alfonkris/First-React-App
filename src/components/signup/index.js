@@ -13,7 +13,7 @@ class Signup extends Component {
       data: $("#the-form").serialize(),
       success: function(res) {
 
-        location.href = "/auth/signin";
+        location.href = "/signin";
         return false;
       },
       error: function(xhr, status, error) {
@@ -40,10 +40,10 @@ class Signup extends Component {
       <div className="login-form">
         <div className="login-form-title">Buat Akun</div>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-5">
             <div className="login-form-subtitle">Sudah punya akun?</div>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-7">
             <NavLink className="login-form-subtitle" id="login-text" to="/auth/signin">Masuk</NavLink>
           </div>
         </div>

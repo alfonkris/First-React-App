@@ -30,10 +30,10 @@ const Navbar = () => {
                 <NavLink className="text-black" exact activeClassName='active' to='/'>BERANDA</NavLink>
               </li>
               <li>
-                <a className="text-black" href="#">GALERI</a>
+                <a className="text-black" href="#galeri">GALERI</a>
               </li>
               <li>
-                <a className="text-black" href="#program">PROGRAM</a>
+                <NavLink className="text-black" to="#program">PROGRAM</NavLink>
               </li>
               <li>
                 <NavLink className="text-black" exact activeClassName='active' to='/auth'>DAFTAR</NavLink>

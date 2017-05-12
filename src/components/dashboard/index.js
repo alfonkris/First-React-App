@@ -47,6 +47,7 @@ class Dashboard extends Component {
                   <tr>
                     <th id="schedule-th">Kelas</th>
                     <th id="schedule-th">Batch</th>
+                    <th id="schedule-th">Status</th>
                   </tr>
                 </thead>
                 <tbody></tbody>

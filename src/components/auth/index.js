@@ -39,13 +39,13 @@ class Auth extends Component {
     return (
       <div className="login">
         <div className="row">
-          <div className="col-md-7 col-sm-7 col-xs-12">
-            <div className="login-banner">
+          <div className="col-md-6 col-sm-6 col-xs-12">
+            <div className="signup-banner">
               <div className="login-banner-title">Gabung Sekarang di CCC!</div>
               <div className="login-banner-subtitle">Tingkatkan skillmu di Code Course Camp. Perbanyak peluang untuk mengejar cita-citamu!</div>
             </div>
           </div>
-          <div className="col-md-5 col-sm-5 col-xs-12">
+          <div className="col-md-6 col-sm-6 col-xs-12">
 
             <div className="login-form">
               <div className="login-form-title">Buat Akun</div>

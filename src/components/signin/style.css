@@ -8,9 +8,10 @@
 .login-banner {
   width: 100%;
   height: 575px;
-  padding: 7em;
+  padding-top: 10em !important;
+  padding: 5em;
   text-align: left;
-  background-image: url("../../assets/kelas.png");
+  background-image: url("../../assets/login2.png") !important;
 }
 
 .login-banner-title {

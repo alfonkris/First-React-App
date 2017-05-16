@@ -3,11 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "body-parser": "1.9.0",
-    "ejs": "^1.0.0",
-    "express": "4.9.5",
-    "express-myconnection": "*",
-    "express-validator": "^2.6.0",
+    "axios": "^0.16.1",
     "jquery": "^3.2.1",
     "morgan": "^1.8.1",
     "mysql": "*",
@@ -21,7 +17,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:server": "node server",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

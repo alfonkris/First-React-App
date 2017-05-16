@@ -1,8 +1,41 @@
 import React, {Component} from 'react';
 import './style.css';
 import {NavLink} from 'react-router-dom';
+import $ from 'jquery';
 
 class Signin extends Component {
+  handleClick() {
+
+    $.ajax({
+
+      url: "localhost:9000/signin",
+      type: "post",
+      data: $("#login-form").serialize(),
+      success: function(res) {
+
+        location.href = "/dashboard";
+        return false;
+      },
+      error: function(xhr, status, error) {
+        var i_name = $('#input_name').val();
+        var i_email = $('#input_email').val();
+        var i_pass = $('#input_password').val();
+
+        if (i_name == "" || i_email == "" || i_pass == "") {
+          console.log(xhr.responseText);
+          var err = '';
+          $.each(JSON.parse(xhr.responseText), function(i, item) {
+
+            err += '<li>' + item.msg + '</li>';
+          });
+          $(".err-area").html(err);
+          return false;
+        }
+      }
+
+    });
+  }
+
   render() {
     return (
       <div className="login">
@@ -25,13 +58,18 @@ class Signin extends Component {
                   <NavLink className="login-form-subtitle" id="login-text" to="/auth">Daftar</NavLink>
                 </div>
               </div>
-              <div className="login-form-label">Email</div>
-              <input className="login-form-input" type="text" name="name" placeholder="Email"></input>
-              <div className="login-form-label">Password</div>
-              <input className="login-form-input" type="password" name="pass" placeholder="Password"></input>
-              <button className="login-button">
-                <NavLink id="login-button" to="/dashboard">Masuk</NavLink>
-              </button>
+
+              <form method="post" action="" id="login-form">
+                <div className="login-form-label">Email</div>
+                <input className="login-form-input" type="text" name="email" placeholder="Email"></input>
+                <div className="login-form-label">Password</div>
+                <input className="login-form-input" type="password" name="password" placeholder="Password"></input>
+                <button className="login-button" onClick={this.handleClick}>Masuk</button>
+              </form>
+              <div className="error-content">
+                <ul className="err-area"></ul>
+              </div>
+
             </div>
 
           </div>
